@@ -2,7 +2,7 @@
 Docker image for Radicale (CalDAV & CardDAV) server based on Debian Slim base. Source code at [Github](https://github.com/Mingala/docker.debian-slim_radicale).
 * Components installed :
   * [LDAP client](https://wiki.debian.org/LDAP) for user authentication via NSS and PAM using [libnss-ldapd and libpam-ldapd libraries](https://arthurdejong.org/nss-pam-ldapd/).
-  * [Radicale 3.0](https://radicale.org/3.0.html) (install from PyPi repository via Pip).
+  * [Radicale 3.0](https://radicale.org) (install from PyPi repository via Pip).
   * [Apache2](https://www.cyrusimap.org/sasl/) as a secured reverse proxy for Radicale Sasl authentification, only ldap component installed, modify Dockerfile for more
 * Bind mounts on Docker :
   * /etc/radicale/ folder to your Radicale config setup
